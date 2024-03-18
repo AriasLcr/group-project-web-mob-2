@@ -1,0 +1,90 @@
+/* Reset default margin and padding, set font family */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/* Styles for the sidebar */
+#sidebar {
+    width: 15vw; /* Sidebar width as a percentage of viewport width */
+    background-color: #D9D9D9; /* Background color */
+    padding: 2vw; /* Padding inside the sidebar */
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Aligning with the top of the viewport */
+    left: 0; /* Aligning with the left side of the viewport */
+    height: 100%; /* Sidebar takes full height of viewport */
+    overflow: auto; /* Enable scrolling for overflowing content */
+    text-align: center; /* Center-align text */
+    font-size: 1.3vw; /* Font size relative to viewport width */
+
+}
+
+/* Styles for links in the sidebar */
+#sidebar a {
+    border-top: 1px solid #7e7e7e; /* Add a bottom border */
+    display: block; /* Display links as blocks */
+    padding: 1vw; /* Padding inside each link */
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link color */
+
+}
+
+#sidebar a:last-child{
+    border-bottom: 1px solid #7e7e7e; /* Add a bottom border */
+
+}
+
+/* Hover effect for links in the sidebar */
+#sidebar a:hover {
+    background-color: #c1c1c1; /* Background color on hover */
+}
+
+/* Styles for the main content area */
+#content {
+    margin-left: 22vw; /* Adjusted margin to include space for sidebar */
+    margin-right: 10vw; /* Right margin for content */
+    padding: 2vw; /* Padding inside the content area */
+}
+
+/* Styles for the logo */
+#logo {
+    width: 10vw; /* Logo width */
+    height: auto; /* Logo height */
+    padding-bottom: 1vw; /* Padding below the logo */
+    
+}
+
+/* Styles for the home page heading */
+#homePageHeading {
+    padding-bottom: 2vw; /* Padding below the home page heading */
+    font-size: 2vw; /* Font size relative to viewport width */
+    color: #333; /* Text color */
+}
+
+/* Styles for level 1 headings */
+h1 {
+    font-size: 3vw; /* Font size relative to viewport width */
+    margin-bottom: 0.5vw; /* Bottom margin */
+    
+}
+
+/* Styles for level 2 headings */
+h2 {
+    font-size: 1.5vw; /* Font size relative to viewport width */
+    margin-top: 0.5vw; /* Top margin */
+    color: #333; /* Text color */
+}
+
+/* Styles for paragraphs */
+p {
+    background-color: #D9D9D9; /* Background color */
+    padding: 1vw; /* Padding inside paragraphs */
+    font-size: 1.3vw; /* Font size relative to viewport width */
+    line-height: 2; /* Line height */
+    color:#333;
+    border-top: 1px solid #7e7e7e; /* Add a bottom border */
+    border-bottom: 1px solid #7e7e7e; /* Add a bottom border */
+
+
+}
