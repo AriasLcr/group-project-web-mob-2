@@ -28,7 +28,7 @@
         <div class="quiz-container">
             <div class="question">
                 <p>What is UNIX?</p>
-                <form id="quizForm">
+                <form id="quizForm" data-correct-answer="b">
                     <input type="radio" id="optionA" name="answer" value="a">
                     <label for="optionA">a) A programming language</label><br>
                     <input type="radio" id="optionB" name="answer" value="b">
@@ -37,9 +37,8 @@
                     <label for="optionC">c) A software development tool</label><br>
                     <input type="radio" id="optionD" name="answer" value="d">
                     <label for="optionD">d) A web browser</label><br><br>
-                    <button class="button" type="button" onclick="checkAnswer()">Check Answer</button>
                 </form>
-                <p id="result"></p>
+                <p id="result">Please select an answer.</p>
             </div>
         </div>
         <div class="quiz-container">
@@ -381,6 +380,9 @@
             </div>
         </div>
     </section>
+
+    <script src="assets/js/script.js"></script>
+
 </div>
 
 </body>
