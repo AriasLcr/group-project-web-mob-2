@@ -77,7 +77,7 @@ h2 {
 }
 
 /* Styles for paragraphs */
-p {
+p, li {
     background-color: #D9D9D9; /* Background color */
     padding: 1vw; /* Padding inside paragraphs */
     font-size: 1.3vw; /* Font size relative to viewport width */
