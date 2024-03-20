@@ -125,4 +125,6 @@ li{
 .lesson1{
     background-color: #D9D9D9; /* Background color */
     padding: 1vw;
+    border-top: 1px solid #7e7e7e; /* Add a bottom border */
+    border-bottom: 1px solid #7e7e7e; /* Add a bottom border */
 }
