@@ -10,7 +10,7 @@
 <body>
 
 <div id="sidebar">
-    <img id="logo" src="assets/images/logo.png">
+    <img id="logo" src="./assets/images/logo.png" alt="Group logo">
     <h2>Table of Contents</h2>
     <a href="./index.html" class="active">Introduction</a>
     <a href="#">History</a>
@@ -23,12 +23,80 @@
 <div id="content">
     <h1>Practice Lesson</h1>
     <h2 id="homePageHeading"></h2>
-    <h2>Lesson 1: Introduction to UNIX</h2>
-    <section class="lesson1">
+    <section class="lesson">
+        <h2>Lesson 1: Introduction to UNIX</h2>
         <h3>Unix Basics</h3>
-            <li>File System</li>
+        <ul>
+            <li>
+                <strong>File System</strong><br>
+                UNIX employs a hierarchical file system structure for organizing data, starting from the root directory and branching out into subdirectories and files.
+            </li>
+            <li>
+                <strong>Processes</strong><br>
+                UNIX is a multitasking operating system capable of running multiple processes simultaneously. Processes represent instances of programs being executed.
+            </li>
+            <li>
+                <strong>Users</strong><br>
+                UNIX supports multiple users, each with their account, providing a private workspace and access to system resources.
+            </li>
+        </ul>
+        <h3>Command-line interface (CLI)</h3>
+        <p>UNIX predominantly operates through a command-line interface (CLI), allowing users to interact with the system by typing commands.</p>
     </section>
-    <p>paragraph</p>
+    <section class="lesson">
+        <h2>Lesson 2: File System Navigation and Manipulation</h2>
+        <p>
+            UNIX employs a hierarchical structure for file organization, akin to branches of a tree. 
+            Commands like cd, pwd, and ls facilitate navigation through directories, helping users find their way around.
+        </p>
+        <h3>Main Navigation Commands</h3>
+        <ul>
+            <li>
+                <strong><strong class="code">cd</strong> (Change Directory)</strong><br>
+                Use "cd" followed by a directory name to navigate into that directory. 
+                Example: <strong class="code">cd Documents</strong> changes the current directory to <strong class="code">Documents</strong>.
+            </li>
+            <li>
+                <strong><strong class="code">pwd</strong> (Print Working Directory)</strong><br>
+                Displays the full path of the current working directory. Helps you know where you are within the file system. 
+                Example: Typing <strong class="code">pwd</strong> might output <strong class="code">/home/user/Documents</strong>.
+            </li>
+            <li>
+                <strong><strong class="code">ls</strong> (List Directory Contents)</strong><br>
+                Lists the files and directories in the current directory. Helps you see what's inside a directory. 
+                Example: <strong class="code">ls</strong> lists the files and directories in the current location.
+            </li>
+        </ul>
+        <h3>File Manipulation</h3>
+        <ul>
+            <li>
+                <strong class="code">touch</strong><br>
+                Besides creating empty files, <strong class="code">touch</strong> updates file timestamps. 
+                For example, <strong class="code">touch example.txt</strong> updates the timestamp of <strong class="code">example.txt</strong> to the current time.
+            </li>
+            <li>
+                <strong><strong class="code">rm</strong> (Remove)</strong><br>
+                To remove files or directories, type <strong class="code">rm</strong> followed by the filename or directory name. 
+                For example, <strong class="code">rm example.txt</strong> deletes <strong class="code">example.txt</strong>.
+            </li>
+            <li>
+                <strong><strong class="code">mv</strong> (Move)</strong><br>
+                Use "mv" to move files or rename them. 
+                For instance, <strong class="code">mv example.txt new_directory/</strong> moves <strong class="code">example.txt</strong> to the directory <strong class="code">new_directory/</strong>.
+            </li>
+            <li>
+                <strong><strong class="code">cp</strong> (Copy)</strong><br>
+                To copy files from one location to another, type "cp" followed by the filename and destination. 
+                For example, <strong class="code">cp example.txt backup/</strong> copies <strong class="code">example.txt</strong> to the directory <strong class="code">backup/</strong>.
+            </li>
+        </ul>
+    </section>
+    <section class="lesson">
+        <h2>Lesson 3: Text Processing and Redirection</h2>
+    </section>
+    <section class="lesson">
+        <h2>Lesson 4: Process Management and System Monitoring Content</h2>
+    </section>
     
 </div>
 

@@ -76,6 +76,11 @@ h2 {
     color: #333; /* Text color */
 }
 
+h3 {
+    font-size: 1.25vw;
+    color: #333;
+}
+
 /* Styles for paragraphs */
 p {
     background-color: #D9D9D9; /* Background color */
@@ -88,12 +93,15 @@ p {
 
 
 }
-li{
+li {
     background-color: #D9D9D9; /* Background color */
     padding: 1vw; /* Padding inside paragraphs */
     font-size: 1.3vw; /* Font size relative to viewport width */
     line-height: 2; /* Line height */
     color:#333;
+}
+.code {
+    font-family: 'SF Mono', 'Consolas', monospace;
 }
 .quiz-container {
     max-width: 500px;
@@ -122,7 +130,7 @@ li{
     border-color: #7e7e7e;
 }
 
-.lesson1{
+#lesson1{
     background-color: #D9D9D9; /* Background color */
     padding: 1vw;
     border-top: 1px solid #7e7e7e; /* Add a bottom border */
