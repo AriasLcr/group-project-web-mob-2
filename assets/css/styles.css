@@ -99,6 +99,16 @@ p {
 }
 .question {
     margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+}
+.answers {
+    display: flex;
+    flex-direction: column;
+} 
+#submit {
+    margin-top: 20px;
+    display: block;
 }
 .button {
     font-family: 'Ubuntu Mono', monospace;
