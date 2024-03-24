@@ -201,6 +201,9 @@ const quizQuestions = [
     }
 ]
 
+// randomizes the questions
+quizQuestions.sort(() => Math.random() - 0.5);  
+
 // builds the quiz and randomizes the questions
 function quizBuilder(){
     const output = []; // This array will store HTML strings
