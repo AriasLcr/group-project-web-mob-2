@@ -71,14 +71,38 @@ h1 {
 
 /* Styles for level 2 headings */
 h2 {
-    font-size: 1.5vw; /* Font size relative to viewport width */
+    font-size: 2vw; /* Font size relative to viewport width */
     margin-top: 0.5vw; /* Top margin */
     color: #333; /* Text color */
+    
+}
+.lesson h2 {
+    font-size: 2vw; /* Font size relative to viewport width */
+    margin-top: 0.5vw; /* Top margin */
+    color: #333; /* Text color */
+    padding: 1vw;
+    background-color: #bababa;
 }
 
+.question p {
+    font-size: 1.4vw;
+}
+.quiz1 h2{
+    font-size: 2vw; /* Font size relative to viewport width */
+    margin-top: 0.5vw; /* Top margin */
+    padding: 1vw;
+}
+label{
+    font-size: 1.3vw;
+}
 h3 {
-    font-size: 1.25vw;
+    font-size: 1.7vw;
     color: #333;
+    
+}
+.lesson{
+    background-color: #D9D9D9; /* Background color */
+    padding: 1vw; /* Padding inside paragraphs */
 }
 
 /* Styles for paragraphs */
@@ -95,10 +119,13 @@ p {
 }
 li {
     background-color: #D9D9D9; /* Background color */
-    padding: 1vw; /* Padding inside paragraphs */
+    padding: 2vw; /* Padding inside paragraphs */
     font-size: 1.3vw; /* Font size relative to viewport width */
     line-height: 2; /* Line height */
     color:#333;
+    margin: 1vw;
+    margin-left: 0rem;
+    margin-right: 1rem;
 }
 .code {
     font-family: 'SF Mono', 'Consolas', monospace;
@@ -135,4 +162,215 @@ li {
     padding: 1vw;
     border-top: 1px solid #7e7e7e; /* Add a bottom border */
     border-bottom: 1px solid #7e7e7e; /* Add a bottom border */
+}
+hr{
+    border: 0px;
+}
+
+@media (max-width: 900px) {
+    .quiz1 h2{
+        font-size: 3vw; /* Font size relative to viewport width */
+    }
+    .question p {
+        font-size: 2vw;
+    }
+    label{
+        font-size: 1.8vw;
+    }
+}
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+    
+    /* CSS for sidebar when active */
+    #sidebar.active {
+        display: block;
+        width: 100%; /* Sidebar width as a percentage of viewport width */
+        background-color: #D9D9D9; /* Background color */
+        padding: 2vw; /* Padding inside the sidebar */
+        position: fixed; /* Fixed positioning */
+        top: 0; /* Aligning with the top of the viewport */
+        left: 0; /* Aligning with the left side of the viewport */
+        height: 100%; /* Sidebar takes full height of viewport */
+        overflow: auto; /* Enable scrolling for overflowing content */
+        text-align: center; /* Center-align text */
+        font-size: 4vw; /* Font size relative to viewport width */
+    }
+    
+    /* Hide sidebar by default */
+    #sidebar {
+        display: none;
+    }
+
+    /* Show sidebar toggle button */
+    #sidebarToggle {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 1rem;
+        background-color: #D9D9D9;
+        border: none;
+        cursor: pointer;
+        z-index: 9999; /* Ensure it's above other content */
+    }
+    li {
+        background-color: #D9D9D9; /* Background color */
+        padding: 2vw; /* Padding inside paragraphs */
+        font-size: 3.5vw; /* Font size relative to viewport width */
+        line-height: 2; /* Line height */
+        color:#333;
+    }
+    /* Styles for paragraphs */
+
+    p {
+        background-color: #D9D9D9; /* Background color */
+        padding: 3vw; /* Padding inside paragraphs */
+        font-size: 3.5vw; /* Font size relative to viewport width */
+        line-height: 3; /* Line height */
+        color:#333;
+        border-top: 0.1vw solid #7e7e7e; /* Add a bottom border */
+        border-bottom: 0.1vw solid #7e7e7e; /* Add a bottom border */
+    }
+    .lesson h2 {
+        font-size: 4vw; /* Font size relative to viewport width */
+        margin-top: 0.5vw; /* Top margin */
+        color: #333; /* Text color */
+        padding: 1vw;
+        background-color: #bababa;
+    }
+    h3 {
+        font-size: 3.7vw;
+        color: #333;
+        margin-left: 2vw;
+        
+    }
+    h1 {
+        word-wrap: break-word;
+        font-size: 10vw; /* Font size relative to viewport width */
+        margin-bottom: 0.5vw; /* Bottom margin */
+    }
+    /* Styles for level 2 headings */
+    /* Styles for the home page heading */
+    #homePageHeading {
+        padding-bottom: 2vw; /* Padding below the home page heading */
+        font-size: 5vw; /* Font size relative to viewport width */
+        color: #333; /* Text color */
+    }
+    #content {
+        margin-left: 6vw; /* Adjusted margin to include space for sidebar */
+        margin-right: 10vw; /* Right margin for content */
+        padding: 2vw; /* Padding inside the content area */
+    }
+    .quiz1 h2{
+        font-size: 3vw; /* Font size relative to viewport width */
+    }
+    .question p {
+        font-size: 2.3vw;
+    }
+    label{
+        font-size: 1.8vw;
+    }
+    #sidebar a{
+        padding: 4vw;
+        margin:4vw;
+        margin-right: 7vw;
+        font-size: 5vw;
+    }
+    #sidebar h2{
+        padding: 4vw;
+        margin:4vw;
+        font-size: 5vw;
+    }
+    #sidebar a:last-child{
+        border-bottom: none;
+    }
+}
+
+
+
+/* New CSS for phone mode */
+@media screen and (max-width: 700px) {
+    .quiz1 h2{
+        font-size: 4vw; /* Font size relative to viewport width */
+    }
+    .question p {
+        font-size: 3.3vw;
+    }
+    label{
+        font-size: 2.8vw;
+    }
+    
+}
+
+/* Media query for screens smaller than 576px */
+@media (max-width: 650px) {
+
+    #sidebarToggle {
+        padding: 0.6rem; /* Further adjust padding for even smaller screens */
+        font-size: 1.2rem; /* Further adjust font size for even smaller screens */
+    }
+    .quiz1 h2{
+        font-size: 5vw; /* Font size relative to viewport width */
+    }
+    .question p {
+        font-size: 4.3vw;
+    }
+    label{
+        font-size: 3.8vw;
+    }
+}
+/* Media query for screens smaller than 576px */
+@media (max-width: 450px) {
+
+    #sidebarToggle {
+        padding: 0.3rem; /* Further adjust padding for even smaller screens */
+        font-size: 1.2rem; /* Further adjust font size for even smaller screens */
+    }
+    .quiz1 h2{
+        font-size: 6vw; /* Font size relative to viewport width */
+    }
+    .question p {
+        font-size: 5.3vw;
+    }
+    label{
+        font-size: 4.8vw;
+    }
+}
+
+/* Media query for screens smaller than 576px */
+@media (max-width: 325px) {
+
+    #sidebarToggle {
+        padding: 0.3rem; /* Further adjust padding for even smaller screens */
+        font-size: 0.7rem; /* Further adjust font size for even smaller screens */
+    }
+    li {
+        background-color: #D9D9D9; /* Background color */
+        font-size: 3.5vw; /* Font size relative to viewport width */
+        line-height: 2; /* Line height */
+        color:#333;
+    }
+    .quiz1 h2{
+        font-size: 6vw; /* Font size relative to viewport width */
+    }
+    .question p {
+        font-size: 5.3vw;
+    }
+    label{
+        font-size: 4.8vw;
+    }
+}
+/* Media query for screens smaller than 576px */
+@media (max-width: 200px) {
+    #sidebarToggle {
+        padding: 0.3rem; /* Further adjust padding for even smaller screens */
+        font-size: 0.4rem; /* Further adjust font size for even smaller screens */
+    }
+}
+/* Media query for screens smaller than 576px */
+@media (max-width: 100px) {
+    #sidebarToggle {
+        padding: 0.3rem; /* Further adjust padding for even smaller screens */
+        font-size: 0.1rem; /* Further adjust font size for even smaller screens */
+    }
 }

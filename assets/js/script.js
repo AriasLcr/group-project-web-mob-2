@@ -23,3 +23,20 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+    const sidebar = document.getElementById('sidebar');
+    const sidebarToggleBtn = document.createElement('button');
+
+    sidebarToggleBtn.setAttribute('id', 'sidebarToggle');
+    sidebarToggleBtn.innerHTML = '&#9776;'; // Unicode for ☰ symbol
+
+    sidebarToggleBtn.addEventListener('click', function() {
+        sidebar.classList.toggle('active');
+    });
+
+    document.body.appendChild(sidebarToggleBtn);
+});
+
+
+// Call the function initially to set the initial state based on screen width
+window.dispatchEvent(new Event('resize'));
