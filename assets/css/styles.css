@@ -166,8 +166,129 @@ li {
 hr{
     border: 0px;
 }
+/* Image Styling */
+img {
+    margin: 0;
+    width: 700px; /* 250px as a percentage of the viewport width */
+    height: auto; /* Retain aspect ratio */
 
-@media (max-width: 900px) {
+}
+
+@media (max-width: 1100px) {
+    img{
+        display: flex;
+        flex-wrap: wrap;
+        width: 84vw; /* 250px as a percentage of the viewport width */
+        padding-top: 3vw;
+        margin-bottom: 4vw;
+        border: none;
+    }
+    #logo{
+        display: none;
+    }
+    /* CSS for sidebar when active */
+    #sidebar.active {
+        display: block;
+        width: 100%; /* Sidebar width as a percentage of viewport width */
+        background-color: #D9D9D9; /* Background color */
+        padding: 2vw; /* Padding inside the sidebar */
+        position: fixed; /* Fixed positioning */
+        top: 0; /* Aligning with the top of the viewport */
+        left: 0; /* Aligning with the left side of the viewport */
+        height: 100%; /* Sidebar takes full height of viewport */
+        overflow: auto; /* Enable scrolling for overflowing content */
+        text-align: center; /* Center-align text */
+        font-size: 4vw; /* Font size relative to viewport width */
+    }
+    
+    /* Hide sidebar by default */
+    #sidebar {
+        display: none;
+    }
+
+    /* Show sidebar toggle button */
+    #sidebarToggle {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 1rem;
+        background-color: #D9D9D9;
+        border: none;
+        cursor: pointer;
+        z-index: 9999; /* Ensure it's above other content */
+    }
+    li {
+        background-color: #D9D9D9; /* Background color */
+        padding: 2vw; /* Padding inside paragraphs */
+        font-size: 3.5vw; /* Font size relative to viewport width */
+        line-height: 2; /* Line height */
+        color:#333;
+    }
+    /* Styles for paragraphs */
+
+    p {
+        background-color: #D9D9D9; /* Background color */
+        padding: 3vw; /* Padding inside paragraphs */
+        font-size: 3.5vw; /* Font size relative to viewport width */
+        line-height: 3; /* Line height */
+        color:#333;
+        border-top: 0.1vw solid #7e7e7e; /* Add a bottom border */
+        border-bottom: 0.1vw solid #7e7e7e; /* Add a bottom border */
+    }
+    .lesson h2 {
+        font-size: 4vw; /* Font size relative to viewport width */
+        margin-top: 0.5vw; /* Top margin */
+        color: #333; /* Text color */
+        padding: 1vw;
+        background-color: #bababa;
+    }
+    h3 {
+        font-size: 3.7vw;
+        color: #333;
+        margin-left: 2vw;
+        
+    }
+    h1 {
+        word-wrap: break-word;
+        font-size: 10vw; /* Font size relative to viewport width */
+        margin-bottom: 0.5vw; /* Bottom margin */
+    }
+    /* Styles for level 2 headings */
+    /* Styles for the home page heading */
+    #homePageHeading {
+        padding-bottom: 2vw; /* Padding below the home page heading */
+        font-size: 5vw; /* Font size relative to viewport width */
+        color: #333; /* Text color */
+    }
+    #content {
+        margin-left: 6vw; /* Adjusted margin to include space for sidebar */
+        margin-right: 10vw; /* Right margin for content */
+        padding: 2vw; /* Padding inside the content area */
+    }
+    .quiz1 h2{
+        font-size: 3vw; /* Font size relative to viewport width */
+    }
+    .question p {
+        font-size: 2.3vw;
+    }
+    label{
+        font-size: 1.8vw;
+    }
+    #sidebar a{
+        padding: 4vw;
+        margin:4vw;
+        margin-right: 7vw;
+        font-size: 5vw;
+    }
+    #sidebar h2{
+        padding: 4vw;
+        margin:4vw;
+        font-size: 5vw;
+    }
+    #sidebar a:last-child{
+        border-bottom: none;
+    }
     .quiz1 h2{
         font-size: 3vw; /* Font size relative to viewport width */
     }
@@ -177,7 +298,9 @@ hr{
     label{
         font-size: 1.8vw;
     }
+    
 }
+
 /* Media query for screens smaller than 768px */
 @media (max-width: 767px) {
     #logo{
@@ -286,8 +409,10 @@ hr{
     #sidebar a:last-child{
         border-bottom: none;
     }
-}
 
+    
+    
+}
 
 
 /* New CSS for phone mode */
