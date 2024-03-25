@@ -178,6 +178,7 @@ img {
 }
 
 @media (max-width: 1100px) {
+    
     img{
         display: flex;
         flex-wrap: wrap;
@@ -287,9 +288,11 @@ img {
         font-size: 5vw;
     }
     #sidebar h2{
-        padding: 4vw;
-        margin:4vw;
-        font-size: 5vw;
+        background-color: white;
+        padding: 6vw;
+        margin:6vw;
+        font-size: 8vw;
+        line-height: 10vw;
     }
     #sidebar a:last-child{
         border-bottom: none;
@@ -303,7 +306,7 @@ img {
     label{
         font-size: 1.8vw;
     }
-    
+
 }
 
 /* Media query for screens smaller than 768px */
@@ -404,12 +407,7 @@ img {
         padding: 4vw;
         margin:4vw;
         margin-right: 7vw;
-        font-size: 5vw;
-    }
-    #sidebar h2{
-        padding: 4vw;
-        margin:4vw;
-        font-size: 5vw;
+        font-size: 6vw;
     }
     #sidebar a:last-child{
         border-bottom: none;
@@ -449,6 +447,12 @@ img {
     }
     label{
         font-size: 3.8vw;
+    }
+    #sidebar a{
+        padding: 4vw;
+        margin:4vw;
+        margin-right: 7vw;
+        font-size: 7vw;
     }
 }
 /* Media query for screens smaller than 576px */
