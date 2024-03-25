@@ -181,10 +181,12 @@ img {
     img{
         display: flex;
         flex-wrap: wrap;
-        width: 84vw; /* 250px as a percentage of the viewport width */
-        padding-top: 3vw;
-        margin-bottom: 4vw;
+        width: 75vw; /* 250px as a percentage of the viewport width */
+        padding-top: 2vw;
+        margin-bottom: 3vw;
         border: none;
+        padding-left: 25vw;
+        float: right;
     }
     #logo{
         display: none;
