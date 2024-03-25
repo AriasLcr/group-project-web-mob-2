@@ -141,6 +141,16 @@ li {
 }
 .question {
     margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+}
+.answers {
+    display: flex;
+    flex-direction: column;
+} 
+#submit {
+    margin-top: 20px;
+    display: block;
 }
 .button {
     font-family: 'Ubuntu Mono', monospace;
@@ -155,13 +165,6 @@ li {
     background-color: #7e7e7e;
     color: white;
     border-color: #7e7e7e;
-}
-
-#lesson1{
-    background-color: #D9D9D9; /* Background color */
-    padding: 1vw;
-    border-top: 1px solid #7e7e7e; /* Add a bottom border */
-    border-bottom: 1px solid #7e7e7e; /* Add a bottom border */
 }
 hr{
     border: 0px;
