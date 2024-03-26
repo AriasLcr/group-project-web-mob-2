@@ -3,12 +3,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu Mono', monospace;
+    background-color: #feffe1;
 }
 
 /* Styles for the sidebar */
 #sidebar {
     width: 15vw; /* Sidebar width as a percentage of viewport width */
-    background-color: #D9D9D9; /* Background color */
+    background-color: #F3F7AD; /* Background color */
     padding: 2vw; /* Padding inside the sidebar */
     position: fixed; /* Fixed positioning */
     top: 0; /* Aligning with the top of the viewport */
@@ -22,22 +23,22 @@ body {
 
 /* Styles for links in the sidebar */
 #sidebar a {
-    border-top: 1px solid #7e7e7e; /* Add a bottom border */
+    border-top: 1px solid #4e4903; /* Add a bottom border */
     display: block; /* Display links as blocks */
     padding: 1vw; /* Padding inside each link */
     text-decoration: none; /* Remove underline from links */
-    color: #333; /* Link color */
+    color: #5f6315; /* Link color */
 
 }
 
 #sidebar a:last-child{
-    border-bottom: 1px solid #7e7e7e; /* Add a bottom border */
+    border-bottom: 1px solid #4e4903; /* Add a bottom border */
 
 }
 
 /* Hover effect for links in the sidebar */
 #sidebar a:hover {
-    background-color: #c1c1c1; /* Background color on hover */
+    background-color: #f7eb99;
 }
 
 /* Styles for the main content area */
@@ -59,29 +60,30 @@ body {
 #homePageHeading {
     padding-bottom: 2vw; /* Padding below the home page heading */
     font-size: 2vw; /* Font size relative to viewport width */
-    color: #333; /* Text color */
+    color: #4e4903; /* Text color */
 }
 
 /* Styles for level 1 headings */
 h1 {
     font-size: 3vw; /* Font size relative to viewport width */
     margin-bottom: 0.5vw; /* Bottom margin */
-    
+    color: #4e4903; /* Text color */
+
 }
 
 /* Styles for level 2 headings */
 h2 {
     font-size: 2vw; /* Font size relative to viewport width */
     margin-top: 0.5vw; /* Top margin */
-    color: #333; /* Text color */
+    color: #4e4903; /* Text color */
     
 }
 .lesson h2 {
     font-size: 2vw; /* Font size relative to viewport width */
     margin-top: 0.5vw; /* Top margin */
-    color: #333; /* Text color */
+    color: #4e4903; /* Text color */
     padding: 1vw;
-    background-color: #bababa;
+    background-color: #dde18b;
 }
 
 .question p {
@@ -97,32 +99,32 @@ label{
 }
 h3 {
     font-size: 1.7vw;
-    color: #333;
+    color: #4e4903; /* Text color */
     
 }
 .lesson{
-    background-color: #D9D9D9; /* Background color */
+    background-color: #F3F7AD; /* Background color */
     padding: 1vw; /* Padding inside paragraphs */
 }
 
 /* Styles for paragraphs */
 p {
-    background-color: #D9D9D9; /* Background color */
+    background-color: #F3F7AD; /* Background color */
     padding: 1vw; /* Padding inside paragraphs */
     font-size: 1.3vw; /* Font size relative to viewport width */
     line-height: 2; /* Line height */
-    color:#333;
-    border-top: 1px solid #7e7e7e; /* Add a bottom border */
-    border-bottom: 1px solid #7e7e7e; /* Add a bottom border */
+    color: #4e4903; /* Text color */
+    border-top: 1px solid #4e4903; /* Add a bottom border */
+    border-bottom: 1px solid #4e4903; /* Add a bottom border */
 
 
 }
 li {
-    background-color: #D9D9D9; /* Background color */
+    background-color: #F3F7AD; /* Background color */
     padding: 2vw; /* Padding inside paragraphs */
     font-size: 1.3vw; /* Font size relative to viewport width */
     line-height: 2; /* Line height */
-    color:#333;
+    color: #4e4903; /* Text color */
     margin: 1vw;
     margin-left: 0rem;
     margin-right: 1rem;
@@ -155,16 +157,16 @@ li {
 .button {
     font-family: 'Ubuntu Mono', monospace;
     padding: 10px 20px;
-    color: #333;
-    border: 2px solid #7e7e7e;
+    color: #4e4903; /* Text color */
+    border: 2px solid #4e4903;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 .button:hover {
-    background-color: #7e7e7e;
+    background-color: #4e4903;
     color: white;
-    border-color: #7e7e7e;
+    border-color: #4e4903;
 }
 hr{
     border: 0px;
@@ -196,7 +198,7 @@ img {
     #sidebar.active {
         display: block;
         width: 100%; /* Sidebar width as a percentage of viewport width */
-        background-color: #D9D9D9; /* Background color */
+        background-color: #F3F7AD; /* Background color */
         padding: 2vw; /* Padding inside the sidebar */
         position: fixed; /* Fixed positioning */
         top: 0; /* Aligning with the top of the viewport */
@@ -219,39 +221,39 @@ img {
         top: 0;
         left: 0;
         padding: 1rem;
-        background-color: #D9D9D9;
+        background-color: #F3F7AD;
         border: none;
         cursor: pointer;
         z-index: 9999; /* Ensure it's above other content */
     }
     li {
-        background-color: #D9D9D9; /* Background color */
+        background-color: #F3F7AD; /* Background color */
         padding: 2vw; /* Padding inside paragraphs */
         font-size: 3.5vw; /* Font size relative to viewport width */
         line-height: 2; /* Line height */
-        color:#333;
+        color: #452f0a; /* Text color */
     }
     /* Styles for paragraphs */
 
     p {
-        background-color: #D9D9D9; /* Background color */
+        background-color: #F3F7AD; /* Background color */
         padding: 3vw; /* Padding inside paragraphs */
         font-size: 3.5vw; /* Font size relative to viewport width */
         line-height: 3; /* Line height */
-        color:#333;
+        color: #4e4903; /* Text color */
         border-top: 0.1vw solid #7e7e7e; /* Add a bottom border */
         border-bottom: 0.1vw solid #7e7e7e; /* Add a bottom border */
     }
     .lesson h2 {
         font-size: 4vw; /* Font size relative to viewport width */
         margin-top: 0.5vw; /* Top margin */
-        color: #333; /* Text color */
+        color: #4e4903; /* Text color */
         padding: 1vw;
-        background-color: #bababa;
+        background-color: #b6b973;
     }
     h3 {
         font-size: 3.7vw;
-        color: #333;
+        color: #4e4903; /* Text color */
         margin-left: 2vw;
         
     }
@@ -265,7 +267,7 @@ img {
     #homePageHeading {
         padding-bottom: 2vw; /* Padding below the home page heading */
         font-size: 5vw; /* Font size relative to viewport width */
-        color: #333; /* Text color */
+        color: #4e4903; /* Text color */
     }
     #content {
         margin-left: 6vw; /* Adjusted margin to include space for sidebar */
@@ -288,7 +290,7 @@ img {
         font-size: 5vw;
     }
     #sidebar h2{
-        background-color: white;
+        background-color: #feffe6;
         padding: 6vw;
         margin:6vw;
         font-size: 8vw;
@@ -318,7 +320,7 @@ img {
     #sidebar.active {
         display: block;
         width: 100%; /* Sidebar width as a percentage of viewport width */
-        background-color: #D9D9D9; /* Background color */
+        background-color: #F3F7AD; /* Background color */
         padding: 2vw; /* Padding inside the sidebar */
         position: fixed; /* Fixed positioning */
         top: 0; /* Aligning with the top of the viewport */
@@ -341,39 +343,39 @@ img {
         top: 0;
         left: 0;
         padding: 1rem;
-        background-color: #D9D9D9;
+        background-color: #F3F7AD;
         border: none;
         cursor: pointer;
         z-index: 9999; /* Ensure it's above other content */
     }
     li {
-        background-color: #D9D9D9; /* Background color */
+        background-color: #F3F7AD; /* Background color */
         padding: 2vw; /* Padding inside paragraphs */
         font-size: 3.5vw; /* Font size relative to viewport width */
         line-height: 2; /* Line height */
-        color:#333;
+        color: #4e4903; /* Text color */
     }
     /* Styles for paragraphs */
 
     p {
-        background-color: #D9D9D9; /* Background color */
+        background-color: #F3F7AD; /* Background color */
         padding: 3vw; /* Padding inside paragraphs */
         font-size: 3.5vw; /* Font size relative to viewport width */
         line-height: 3; /* Line height */
-        color:#333;
+        color: #452f0a; /* Text color */
         border-top: 0.1vw solid #7e7e7e; /* Add a bottom border */
         border-bottom: 0.1vw solid #7e7e7e; /* Add a bottom border */
     }
     .lesson h2 {
         font-size: 4vw; /* Font size relative to viewport width */
         margin-top: 0.5vw; /* Top margin */
-        color: #333; /* Text color */
+        color: #452f0a; /* Text color */
         padding: 1vw;
-        background-color: #bababa;
+        background-color: #b6b973;
     }
     h3 {
         font-size: 3.7vw;
-        color: #333;
+        color: #452f0a; /* Text color */
         margin-left: 2vw;
         
     }
@@ -387,7 +389,7 @@ img {
     #homePageHeading {
         padding-bottom: 2vw; /* Padding below the home page heading */
         font-size: 5vw; /* Font size relative to viewport width */
-        color: #333; /* Text color */
+        color: #452f0a; /* Text color */
     }
     #content {
         margin-left: 6vw; /* Adjusted margin to include space for sidebar */
@@ -481,10 +483,10 @@ img {
         font-size: 0.7rem; /* Further adjust font size for even smaller screens */
     }
     li {
-        background-color: #D9D9D9; /* Background color */
+        background-color: #F3F7AD; /* Background color */
         font-size: 3.5vw; /* Font size relative to viewport width */
         line-height: 2; /* Line height */
-        color:#333;
+        color: #452f0a; /* Text color */
     }
     .quiz1 h2{
         font-size: 6vw; /* Font size relative to viewport width */
