@@ -18,7 +18,6 @@ body {
     overflow: auto; /* Enable scrolling for overflowing content */
     text-align: center; /* Center-align text */
     font-size: 1.3vw; /* Font size relative to viewport width */
-
 }
 
 /* Styles for links in the sidebar */
@@ -28,12 +27,10 @@ body {
     padding: 1vw; /* Padding inside each link */
     text-decoration: none; /* Remove underline from links */
     color: #5f6315; /* Link color */
-
 }
 
 #sidebar a:last-child{
     border-bottom: 1px solid #4e4903; /* Add a bottom border */
-
 }
 
 /* Hover effect for links in the sidebar */
@@ -511,4 +508,28 @@ img {
         padding: 0.3rem; /* Further adjust padding for even smaller screens */
         font-size: 0.1rem; /* Further adjust font size for even smaller screens */
     }
+}
+
+#quizContainer {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #a79e66;
+    background-color: #F3F7AD;
+    margin-bottom: 1vw;
+    border: none;
+
+}
+
+
+#submit{
+    padding: 1rem;
+    background-color: #dde18b;
+    border: none;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+#submit:hover{
+    background-color: #a79e66;
+    color: white;
 }
