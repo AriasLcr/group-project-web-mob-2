@@ -479,12 +479,21 @@ img {
         padding: 0.3rem; /* Further adjust padding for even smaller screens */
         font-size: 0.7rem; /* Further adjust font size for even smaller screens */
     }
-    li {
-        background-color: #F3F7AD; /* Background color */
-        font-size: 3.5vw; /* Font size relative to viewport width */
-        line-height: 2; /* Line height */
-        color: #452f0a; /* Text color */
+    /*How do i make it so that the list item is not overflowing ??*/
+    .lesson li {
+
+        background-color: #F3F7AD;
+        font-size: 9px; /* Fixed font size */
+        line-height: 1.5; /* Adjust line height if necessary */
+        color: #452f0a;
+        margin-left: 0%;
+        padding: 5px; /* Adjust padding if necessary */
+        
     }
+    .lesson ul {    
+        padding-left: 11%;
+    }
+
     .quiz1 h2{
         font-size: 6vw; /* Font size relative to viewport width */
     }
@@ -501,6 +510,35 @@ img {
         padding: 0.3rem; /* Further adjust padding for even smaller screens */
         font-size: 0.4rem; /* Further adjust font size for even smaller screens */
     }
+    .lesson li {
+        font-size: 6px; /* Fixed font size */
+        
+    }
+    .lesson ul{
+        margin-top: 0%;
+    }
+}
+/* Media query for screens smaller than 576px */
+@media (max-width: 140px) {
+    #sidebarToggle {
+        padding: 0.3rem; /* Further adjust padding for even smaller screens */
+        font-size: 0.1rem; /* Further adjust font size for even smaller screens */
+    }
+    .lesson li {
+        background-color: #F3F7AD;
+        font-size: 5px; /* Fixed font size */
+        line-height: 1.5; /* Adjust line height if necessary */
+        color: #452f0a;
+        margin-left: 0%;
+        padding: 5px; /* Adjust padding if necessary */
+        padding-left: 0%;
+       
+    }
+    .lesson ul {
+        margin-top: 0%;
+        padding-top: 0%;
+        padding-left: 11%;
+    }
 }
 /* Media query for screens smaller than 576px */
 @media (max-width: 100px) {
@@ -508,6 +546,21 @@ img {
         padding: 0.3rem; /* Further adjust padding for even smaller screens */
         font-size: 0.1rem; /* Further adjust font size for even smaller screens */
     }
+    .lesson li {
+        background-color: #F3F7AD;
+        font-size: 3px; /* Fixed font size */
+        line-height: 1.5; /* Adjust line height if necessary */
+        color: #452f0a;
+        margin-left: 0%;
+        padding: 5px; /* Adjust padding if necessary */
+        padding-left: 0%;
+        padding-top: none;
+    }
+    .lesson ul {
+        padding-top: none;
+        padding-left: 18%;
+    }
+    
 }
 
 #quizContainer {
