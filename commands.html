@@ -1,78 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <script src="./assets/js/script.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Unix Survival Guide - Commands</title>
-</head>
-<body>
-<!--Setting up the sidebar-->
-<div id="sidebar">
-    <img id="logo" src="./assets/images/logo.png" alt="Group logo">
-    <h2>Table of Contents</h2>
-    <a href="./index.html" class="active"><strong>Introduction</strong></a>
-    <a href="./history.html"><strong>History</strong></a>
-    <a href="./terminal.html"><strong>Terminal</strong></a>
-    <a href="./commands.html"><strong>Commands</strong></a>
-    <a href="./practiceLessons.html"><strong>Practice Lessons</strong></a>
-    <a href="./quizzes.html" class="active"><strong>Quizzes</strong></a>
-</div>
-
-<div id="content">
-    <h1>Commands</h1>
-    <h2 id="homePageHeading">&nbsp;</h2>
-        <!--Ths function lists the contents of a directory.-->
-        <p>ls: Lists the contents of a directory.<br>
-        <br>user@home ~/student>$ ls
-        <br>user@home ~/>$ </p>
-        <!--This function changes the current directory.-->
-        <p>cd: Changes the current directory.<br><br>
-        <img src="assets/images/ls-linux-command (1).webp" alt="cd example">
-        </p>
-        <!--This function prints the current working directory.-->
-        <p>pwd: Prints the current working directory.</p>
+  </head>
+  <body>
+    <div id="sidebar">
+      <img id="logo" src="assets/images/logo.png" alt="Logo">
+      <h2>Table of Contents</h2>
+      <a href="index.html"><strong>Introduction</strong></a>
+      <a href="history.html"><strong>History</strong></a>
+      <a href="terminal.html"><strong>Terminal</strong></a>
+      <a href="commands.html"><strong>Commands</strong></a>
+      <a href="practiceLessons.html"><strong>Practice Lessons</strong></a>
+      <a href="quizzes.html"><strong>Quizzes</strong></a>
+    </div>
+    <div id="content">
+      <h1>Commands</h1>
+      <p>ls: Lists the contents of a directory. <br>
+        <img src="assets/images/ls_example.png" alt="ls example">
+      </p>
+      <p>cd: Changes the current directory. <br>
+        <img src="assets/images/cd_example.png" alt="cd example">
+      </p>
+      <p>pwd: Prints the current working directory. <br>
         <img src="assets/images/pwd_example.png" alt="pwd example">
-        <!--This function creates a new directory.-->
-        <p>mkdir: Creates a new directory.</p>
+      </p>
+      <p>mkdir: Creates a new directory. <br>
         <img src="assets/images/mkdir_example.png" alt="mkdir example">
-        <!--This function creates a new file or updates the timestamp of an existing file.-->
-        <p>touch: Creates a new file or updates the timestamp of an existing file.</p>
+      </p>
+      <p>touch: Creates a new file or updates the timestamp of an existing file. <br>
         <img src="assets/images/touch_example.png" alt="touch example">
-        <!--This function deletes files/directories.-->
-        <p>rm: Removes (deletes) files or directories.</p>
+      </p>
+      <p>rm: Removes (deletes) files or directories. <br>
         <img src="assets/images/rm_example.png" alt="rm example">
-        <!--This function displays the contents of a file.-->
-        <p>cat: Displays the contents of a file.</p>
+      </p>
+      <p>cat: Displays the contents of a file. <br>
         <img src="assets/images/cat_example.png" alt="cat example">
-        <!--This function searches for specific words or patterns in a file.-->
-        <p>grep: Searches for specific words or patterns in a file.</p>
+      </p>
+      <p>grep: Searches for specific words or patterns in a file. <br>
         <img src="assets/images/grep_example.png" alt="grep example">
-        <!--This function sends the output of a command to a file, which replaces its content.-->
-        <p>>: Sends the output of a command to a file, replacing its content if it already exists.</p>
+      </p>
+      <p>>: Sends the output of a command to a file, replacing its content if it already exists. <br>
         <img src="assets/images/1_example.png" alt="> example">
-        <!--This function appends the output of a command to the end of a file.-->
-        <p>>>: Appends the output of a command to the end of a file.</p>
-        <img src="assets/images/2_example.png" alt=">> example">
-        <!--This function shows the programs that are running/their IDs.-->
-        <p>ps: Shows the programs that are running and their IDs.</p>
+      </p>
+      <p>>>: Appends the output of a command to the end of a file. <br>
+        <img src="assets/images/>>_example.png" alt=">> example">
+      </p>
+      <p>ps: Shows the programs that are running and their IDs. <br>
         <img src="assets/images/ps_example.png" alt="ps example">
-        <!--This function consistently updates to show which programs are using up the most resources, such as CPU or memory.-->
-        <p>top: Constantly updates to show which programs are using the most resources like CPU and memory.</p>
+      </p>
+      <p>top: Constantly updates to show which programs are using the most resources like CPU and memory. <br>
         <img src="assets/images/top_example.png" alt="top example">
-        <!--This function stops a program-->
-        <p>kill: Stops a program.</p>
+      </p>
+      <p>kill: Stops a program. <br>
         <img src="assets/images/kill_example.png" alt="kill example">
-        <!--This function tells you how long your computer's been running for.-->
-        <p>uptime: Tells you how long your computer has been running since.</p>
+      </p>
+      <p>uptime: Tells you how long your computer has been running since. <br>
         <img src="assets/images/uptime_example.png" alt="uptime example">
-        <!--This function checks your computer’s memory, showing how much memory is being used and how much is still available.-->
-        <p>free: Checks your computer’s memory, showing how much memory is being used and how much is still available.</p>
+      </p>
+      <p>free: Checks your computer’s memory, showing how much memory is being used and how much is still available. <br>
         <img src="assets/images/free_example.png" alt="free example">
-</div>
-
-</body>
+      </p>
+    </div>
+  </body>
 </html>
-
