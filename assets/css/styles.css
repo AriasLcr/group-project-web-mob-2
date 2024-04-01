@@ -82,6 +82,10 @@ h2 {
     padding: 1vw;
     background-color: #dde18b;
 }
+.lesson p {
+    border-top:none; /* Add a bottom border */
+    border-bottom:none; /* Add a bottom border */
+}
 
 .question p {
     font-size: 1.4vw;
@@ -102,6 +106,8 @@ h3 {
 .lesson{
     background-color: #F3F7AD; /* Background color */
     padding: 1vw; /* Padding inside paragraphs */
+    border-top: 1px solid #4e4903; /* Add a bottom border */
+    border-bottom: 1px solid #4e4903; /* Add a bottom border */
 }
 
 /* Styles for paragraphs */
@@ -136,6 +142,7 @@ li {
     border-radius: 10px;
     background-color: #f9f9f9;
     margin-bottom: 1vw;
+    
 
 }
 .question {
@@ -246,7 +253,7 @@ img {
         margin-top: 0.5vw; /* Top margin */
         color: #4e4903; /* Text color */
         padding: 1vw;
-        background-color: #b6b973;
+        background-color: #dde18b;
     }
     h3 {
         font-size: 3.7vw;
@@ -368,7 +375,7 @@ img {
         margin-top: 0.5vw; /* Top margin */
         color: #452f0a; /* Text color */
         padding: 1vw;
-        background-color: #b6b973;
+        background-color: #dde18b;
     }
     h3 {
         font-size: 3.7vw;
@@ -570,6 +577,8 @@ img {
     background-color: #F3F7AD;
     margin-bottom: 1vw;
     border: none;
+    border-top: 1px solid #4e4903; /* Add a bottom border */
+    border-bottom: 1px solid #4e4903; /* Add a bottom border */
 
 }
 
