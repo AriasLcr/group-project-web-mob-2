@@ -567,20 +567,22 @@ img {
     
 }
 #quizContainer {
-    width: 100%;
-    padding: 20px;
-    border: 2px solid #a79e66;
+    width: auto; /* Let the container size adjust to its content */
+    max-width: 100%; /* Prevent it from extending beyond the viewport width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 20px; /* Adjust padding as necessary */
+    margin: 0 auto; /* Center the container */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    border-top: 1px solid #4e4903;
+    border-bottom: 1px solid #4e4903;
     background-color: #F3F7AD;
-    margin-bottom: 1vw;
-    border: none;
-
 }
 #submit{
     padding: 1rem;
     background-color: #dde18b;
     border: none;
     font-family: inherit;
-    font-size: 1rem;
+    font-size: clamp(1.25rem, 3vw, 1rem);
 }
 #submit:hover{
     background-color: #a79e66;
@@ -589,9 +591,11 @@ img {
 
 .question {
     font-size: clamp(1.25rem, 3vw, 2rem); /* Example sizes: Adjust as needed */
+    background-color: #dde18b;
+    padding: 1rem;
 }
 
 .answers label {
-    font-size: clamp(1.1rem, 2.5vw, 1.5rem); /* Slightly smaller than the question */
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem); /* Slightly smaller than the question */
     margin-bottom: 0.5rem; /* Adjust spacing between answers */
 }
