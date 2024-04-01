@@ -84,8 +84,9 @@ h2 {
 }
 
 .question p {
-    font-size: 1.4vw;
+    font-size: clamp(3rem, 2.5vw, 1.5rem);
 }
+
 .quiz1 h2{
     font-size: 2vw; /* Font size relative to viewport width */
     margin-top: 0.5vw; /* Top margin */
@@ -130,8 +131,8 @@ li {
     font-family: 'SF Mono', 'Consolas', monospace;
 }
 .quiz-container {
-    max-width: 500px;
-    padding: 20px;
+    padding: 1rem;
+    width: auto;
     border: 2px solid #ccc;
     border-radius: 10px;
     background-color: #f9f9f9;
@@ -146,7 +147,10 @@ li {
 .answers {
     display: flex;
     flex-direction: column;
-} 
+}
+label, .answers {
+    font-size: clamp(0.9rem, 2.3vw, 1.3rem);
+}
 #submit {
     margin-top: 20px;
     display: block;
@@ -273,9 +277,6 @@ img {
     }
     .quiz1 h2{
         font-size: 3vw; /* Font size relative to viewport width */
-    }
-    .question p {
-        font-size: 2.3vw;
     }
     label{
         font-size: 1.8vw;
@@ -412,11 +413,7 @@ img {
         border-bottom: none;
     }
 
-    
-    
 }
-
-
 /* New CSS for phone mode */
 @media screen and (max-width: 700px) {
     .quiz1 h2{
@@ -562,7 +559,6 @@ img {
     }
     
 }
-
 #quizContainer {
     width: 100%;
     padding: 20px;
@@ -570,10 +566,7 @@ img {
     background-color: #F3F7AD;
     margin-bottom: 1vw;
     border: none;
-
 }
-
-
 #submit{
     padding: 1rem;
     background-color: #dde18b;
@@ -581,8 +574,16 @@ img {
     font-family: inherit;
     font-size: 1rem;
 }
-
 #submit:hover{
     background-color: #a79e66;
     color: white;
+}
+
+.question {
+    font-size: clamp(1.25rem, 3vw, 2rem); /* Example sizes: Adjust as needed */
+}
+
+.answers label {
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem); /* Slightly smaller than the question */
+    margin-bottom: 0.5rem; /* Adjust spacing between answers */
 }
