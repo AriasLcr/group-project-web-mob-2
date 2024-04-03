@@ -576,26 +576,30 @@ img {
     border-top: 1px solid #4e4903;
     border-bottom: 1px solid #4e4903;
     background-color: #F3F7AD;
+    color:#4e4903;
 }
 #submit{
     padding: 1rem;
     background-color: #dde18b;
     border: none;
     font-family: inherit;
-    font-size: clamp(1.25rem, 3vw, 1rem);
+    font-size: clamp(1rem, 3vw, 1rem);
+    color:#452f0a;
 }
 #submit:hover{
     background-color: #a79e66;
     color: white;
 }
+/*Changes needed to the css (mention during group project:*/
+/*1454 is the width where the text needs to be smaller not bigger*/
 
 .question {
-    font-size: clamp(1.25rem, 3vw, 2rem); /* Example sizes: Adjust as needed */
+    font-size: clamp(0.8rem, 1.7vw, 2rem); /* Example sizes: Adjust as needed */
     background-color: #dde18b;
     padding: 1rem;
 }
 
 .answers label {
-    font-size: clamp(1.2rem, 2.5vw, 1.5rem); /* Slightly smaller than the question */
+    font-size: clamp(0.8rem, 2vw, 1.2rem); /* Slightly smaller than the question */
     margin-bottom: 0.5rem; /* Adjust spacing between answers */
 }
