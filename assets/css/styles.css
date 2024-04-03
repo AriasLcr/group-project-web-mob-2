@@ -594,7 +594,7 @@ img {
 /*1454 is the width where the text needs to be smaller not bigger*/
 
 .question {
-    font-size: clamp(0.8rem, 1.7vw, 2rem); /* Example sizes: Adjust as needed */
+    font-size: clamp(0.8rem, 1.5vw, 2rem); /* Example sizes: Adjust as needed */
     background-color: #dde18b;
     padding: 1rem;
 }
