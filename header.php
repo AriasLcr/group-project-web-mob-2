@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-    <title>Unix Survival Guide - Home</title>
+    <title><?php echo $pagetitle; ?></title>
     <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="assets/js/script.js"></script>
 </head>
