@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-    <title>Unix Survival Guide - Home</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <script src="./assets/js/script.js"></script>
-</head>
-<body>
-<!--Setting up the sidebar-->
-<div id="sidebar">
-    <img id="logo" src="./assets/images/logo.png" alt="Group logo">
-    <h2>Table of Contents</h2>
-    <a href="./index.html" class="active"><strong>Introduction</strong></a>
-    <a href="./history.html"><strong>History</strong></a>
-    <a href="./terminal.html"><strong>Terminal</strong></a>
-    <a href="./commands.html"><strong>Commands</strong></a>
-    <a href="./practiceLessons.html"><strong>Practice Lessons</strong></a>
-    <a href="./quizzes.html" class="active"><strong>Quizzes</strong></a>
-</div>
+<?php
+    $pagetitle = "Unix Survival Guide - Home";
+    include("./assets/inc/header.php");
+?>
+
 <!--Talking about the basics of Unix and what it offers-->
 <div id="content">
     <h1>Unix Survival Guide</h1>
@@ -27,5 +10,6 @@
     <p>UNIX is an operating system known for its foundation of providing users with choices of simple yet powerful tools that can be easily combined to accomplish complex tasks. It differentiates itself through a command-line interface, enabling users to interact with the system through a series of text-based commands rather than relying on a Graphical User Interface. UNIX's command-line interface offers users specific control over system operations and enables automation of various tasks. Its design highlights simplicity, power, and efficiency, making it a preferred choice for developers, system administrators, and enthusiasts. With its rich history and widespread adoption, UNIX is the foundation of most modern operating systems, including Linux and Mac OS X. It is widely used by tech companies, academic institutions, and even governments worldwide.</p>
 </div>
 
-</body>
-</html>
+<?php
+    include("./assets/inc/footer.php");
+?>

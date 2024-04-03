@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <script src="./assets/js/script.js"></script>
-    <title>Unix Survival Guide - History</title>
-</head>
-<body>
-<!--Setting up the sidebar-->
-<div id="sidebar">
-    <img id="logo" src="./assets/images/logo.png" alt="Group logo">
-    <h2>Table of Contents</h2>
-    <a href="./index.html" class="active"><strong>Introduction</strong></a>
-    <a href="./history.html"><strong>History</strong></a>
-    <a href="./terminal.html"><strong>Terminal</strong></a>
-    <a href="./commands.html"><strong>Commands</strong></a>
-    <a href="./practiceLessons.html"><strong>Practice Lessons</strong></a>
-    <a href="./quizzes.html" class="active"><strong>Quizzes</strong></a>
-</div>
+<?php
+    $pagetitle = "Unix Survival Guide - History";
+    include("./assets/inc/header.php");
+?>
+
 <!--Here we talk about the history of Unix, and how it's used.-->
 <div id="content">
     <h1>History</h1>
@@ -32,6 +15,6 @@
     </p>
 </div>
 
-</body>
-</html>
-
+<?php
+    include("./assets/inc/footer.php");
+?>

@@ -1,26 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-    <title>Unix Survival Guide - Home</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <script src="./assets/js/script.js"></script>
-
-</head>
-<body>
-<!--Setting up the sidebar-->
-<div id="sidebar">
-    <img id="logo" src="./assets/images/logo.png" alt="Group logo">
-    <h2>Table of Contents</h2>
-    <a href="./index.html" class="active"><strong>Introduction</strong></a>
-    <a href="./history.html"><strong>History</strong></a>
-    <a href="./terminal.html"><strong>Terminal</strong></a>
-    <a href="./commands.html"><strong>Commands</strong></a>
-    <a href="./practiceLessons.html"><strong>Practice Lessons</strong></a>
-    <a href="./quizzes.html" class="active"><strong>Quizzes</strong></a>
-</div>
+<?php
+    $pagetitle = "Unix Survival Guide - Practice Lessons";
+    include("./assets/inc/header.php");
+?>
 
 <div id="content">
     <h1>Practice Lesson</h1>
@@ -165,5 +146,6 @@
     </section>
 </div>
 
-</body>
-</html>
+<?php
+    include("./assets/inc/footer.php");
+?>
