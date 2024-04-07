@@ -4,8 +4,7 @@
 ?>
 
 <div id="content">
-    <h1>Practice Lesson</h1>
-    <h2 id="homePageHeading">&nbsp;</h2>
+    <h1>Practice Lesson<br><br></h1>
     <section class="lesson">
         <h2>Lesson 1: Introduction to UNIX</h2>
         <h3>Unix Basics</h3>

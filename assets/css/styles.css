@@ -96,6 +96,10 @@ h2 {
     margin-top: 0.5vw; /* Top margin */
     padding: 1vw;
 }
+div.question{
+    font-weight: bolder;
+}
+
 label{
     font-size: 1.3vw;
 }
@@ -186,6 +190,47 @@ img {
 }
 
 @media (max-width: 1100px) {
+    .command{
+        background-color: #F3F7AD;
+        padding-bottom: 7vw;
+        border-bottom: 1px solid #4e4903; /* Add a bottom border */
+
+    }
+    .command-short{
+        background-color: #F3F7AD;
+        padding-bottom: 5vw;
+        border-bottom: 1px solid #4e4903; /* Add a bottom border */
+    }
+    .command-long{
+        background-color: #F3F7AD;
+        padding-bottom: 24vw;
+        border-bottom: 1px solid #4e4903; /* Add a bottom border */
+    }
+    .command-very-long{
+        background-color: #F3F7AD;
+        padding-bottom: 34vw;
+        border-bottom: 1px solid #4e4903; /* Add a bottom border */
+    }
+    .command-very-long p{
+        background-color: #F3F7AD;
+        padding-bottom: 26vw;
+        border-bottom: none;
+    }
+    .command-long p{
+        background-color: #F3F7AD;
+        padding-bottom: 20vw;
+        border-bottom: none;
+    }
+    .command-short p{
+        background-color: #F3F7AD;
+        padding-bottom: 5vw;
+        border-bottom: none;
+    }
+    .command p{
+        background-color: #F3F7AD;
+        padding-bottom: 15vw;
+        border-bottom: none;
+    }
     img{
         display: flex;
         flex-wrap: wrap;
@@ -247,8 +292,8 @@ img {
         font-size: 3.5vw; /* Font size relative to viewport width */
         line-height: 3; /* Line height */
         color: #4e4903; /* Text color */
-        border-top: 0.1vw solid #7e7e7e; /* Add a bottom border */
-        border-bottom: 0.1vw solid #7e7e7e; /* Add a bottom border */
+        border-top: 0.1vw solid #4e4903; /* Add a bottom border */
+        border-bottom: 0.1vw solid #4e4903; /* Add a bottom border */
     }
     .lesson h2 {
         font-size: 4vw; /* Font size relative to viewport width */
@@ -366,8 +411,8 @@ img {
         font-size: 3.5vw; /* Font size relative to viewport width */
         line-height: 3; /* Line height */
         color: #452f0a; /* Text color */
-        border-top: 0.1vw solid #7e7e7e; /* Add a bottom border */
-        border-bottom: 0.1vw solid #7e7e7e; /* Add a bottom border */
+        border-top: 0.1vw solid #4e4903; /* Add a bottom border */
+        border-bottom: 0.1vw solid #4e4903; /* Add a bottom border */
     }
     .lesson h2 {
         font-size: 4vw; /* Font size relative to viewport width */
@@ -556,10 +601,10 @@ img {
         margin-left: 0%;
         padding: 5px; /* Adjust padding if necessary */
         padding-left: 0%;
-        padding-top: none;
+        padding-top: 0%;
     }
     .lesson ul {
-        padding-top: none;
+        padding-top: 0%;
         padding-left: 18%;
     }
     
@@ -583,6 +628,10 @@ img {
     font-family: inherit;
     font-size: clamp(1rem, 3vw, 1rem);
     color:#452f0a;
+    font-weight: 600;
+    border-top: 1px solid #4e4903; /* Add a bottom border */
+    border-bottom: 1px solid #4e4903; /* Add a bottom border */
+
 }
 #submit:hover{
     background-color: #a79e66;
