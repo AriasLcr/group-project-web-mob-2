@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <title><?php echo $pagetitle; ?></title>
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <script src="./assets/js/script.js"></script>
 </head>
 <body>
