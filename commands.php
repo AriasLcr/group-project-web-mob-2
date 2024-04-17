@@ -76,7 +76,7 @@
 
       <section class="command-long">
           <p>
-              <strong>>>>:</strong> Appends the output of a command to the end of a file.
+              <strong>>>:</strong> Appends the output of a command to the end of a file.
               <br>
               <img src="assets/images/2_example.png" alt=">> example">
           </p>
